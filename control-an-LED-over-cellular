@@ -29,7 +29,7 @@ void setup()
    digitalWrite(led1, LOW);
 
 }
-
+// This is the end of the setup routine
 
 /* Last time, we wanted to continously blink the LED on and off
 Since we're waiting for input through the cloud this time,
@@ -64,3 +64,4 @@ int ledToggle(String command) {
         return -1;
     }
 }
+// This is the end of the ledToggle function
